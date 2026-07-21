@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Xyfer Tech — Web Design, Branding &amp; Social Media, Kathmandu
+    </title>
+    <meta
+      name="description"
+      content="Xyfer Tech is a Kathmandu-based creative studio building websites, brand identities and social media growth for Nepali businesses."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="scroll-progress"></div>
+    <div class="preloader">
+      <img class="pre-mark" src="logo.png" alt="Xyfer Tech" />
+    </div>
+    <div class="cursor-spark"></div>
+
+    <!-- ================= NAV ================= -->
+    <header class="nav">
+      <div class="container nav-inner">
+        <a href="index.html" class="brand">
+          <span class="brand-mark">
+            <img src="logo.png" alt="" />
+          </span>
+          Xyfer Tech
+        </a>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-cta">
+          <a href="contact.html" class="btn btn-ghost">Get in touch</a>
+          <button class="nav-toggle" aria-label="Open menu">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M2 5h16M2 10h16M2 15h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="mesh-blob b1"></div>
+      <div class="mesh-blob b2"></div>
+      <div class="mesh-blob b3"></div>
+      <canvas class="particles-canvas"></canvas>
+      <div class="noise-overlay"></div>
+      <div class="container hero-inner">
+        <div class="on-ink">
+          <div class="eyebrow">Kathmandu · Digital Studio</div>
+          <h1>
+            We turn scattered ideas into
+            <span class="grad">one bright Xyfer Tech.</span>
+          </h1>
+          <p class="lead">
+            Websites, brand visuals and social media, built as one connected
+            system — so every part of your business online looks and feels like
+            it belongs together.
+          </p>
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary"
+              ><span class="spark-dot"></span> Start a project</a
+            >
+            <a href="portfolio.html" class="btn btn-ghost">See our work</a>
+          </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <b data-count="8" data-suffix="+">0</b
+              ><span>Projects delivered</span>
+            </div>
+            <div class="hero-stat">
+              <b data-count="7" data-suffix="+">0</b><span>Happy clients</span>
+            </div>
+            <div class="hero-stat">
+              <b data-count="1" data-suffix="+">0</b><span>Years of craft</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="spark-visual" aria-hidden="true">
+          <svg viewBox="0 0 400 400">
+            <defs>
+              <linearGradient
+                id="sparkLine"
+                x1="40"
+                y1="60"
+                x2="360"
+                y2="340"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop offset="0%" stop-color="#FFB627" />
+                <stop offset="55%" stop-color="#E8447C" />
+                <stop offset="100%" stop-color="#6C5CE7" />
+              </linearGradient>
+            </defs>
+            <path
+              id="mainPath"
+              class="spark-path"
+              d="M70,90 C150,40 210,140 200,200 C190,260 300,240 330,320"
+            />
+            <g class="spark-node" transform="translate(70,90)">
+              <circle r="26" fill="rgba(255,182,39,.14)" />
+              <circle r="14" class="core" stroke="#FFB627" stroke-width="2" />
+              <g class="node-icon">
+                <circle
+                  r="6.5"
+                  fill="none"
+                  stroke="#12101c"
+                  stroke-width="1.3"
+                />
+                <ellipse
+                  rx="2.6"
+                  ry="6.5"
+                  fill="none"
+                  stroke="#12101c"
+                  stroke-width="1.3"
+                />
+                <path
+                  d="M-6.5,0 H6.5 M-5.6,-3.3 H5.6 M-5.6,3.3 H5.6"
+                  fill="none"
+                  stroke="#12101c"
+                  stroke-width="1.1"
+                  stroke-linecap="round"
+                />
+              </g>
+            </g>
+            <g class="spark-node" transform="translate(200,200)">
+              <circle r="30" fill="rgba(232,68,124,.14)" />
+              <circle r="17" class="core" stroke="#E8447C" stroke-width="2" />
+              <path
+                class="node-icon"
+                d="M0,-9 C1.4,-3 3,-1.4 9,0 C3,1.4 1.4,3 0,9 C-1.4,3 -3,1.4 -9,0 C-3,-1.4 -1.4,-3 0,-9 Z"
+                fill="#12101c"
+              />
+            </g>
+            <g class="spark-node" transform="translate(330,320)">
+              <circle r="28" fill="rgba(108,92,231,.16)" />
+              <circle r="15" class="core" stroke="#6C5CE7" stroke-width="2" />
+              <g class="node-icon">
+                <rect
+                  x="-7"
+                  y="-6"
+                  width="14"
+                  height="10"
+                  rx="4"
+                  fill="none"
+                  stroke="#12101c"
+                  stroke-width="1.3"
+                />
+                <path
+                  d="M-3,4 L-4.5,8 L0.5,4"
+                  fill="none"
+                  stroke="#12101c"
+                  stroke-width="1.3"
+                  stroke-linejoin="round"
+                  stroke-linecap="round"
+                />
+                <circle cx="-3" cy="-1" r="0.9" fill="#12101c" />
+                <circle cx="0" cy="-1" r="0.9" fill="#12101c" />
+                <circle cx="3" cy="-1" r="0.9" fill="#12101c" />
+              </g>
+            </g>
+            <circle
+              r="6"
+              fill="#fff"
+              class="spark-dotmoving"
+              style="
+                offset-path: path(
+                  &quot;M70,90 C150,40 210,140 200,200 C190,260 300,240 330,320&quot;
+                );
+              "
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= MARQUEE ================= -->
+    <div class="marquee">
+      <div class="container">
+        <div class="marquee-track">
+          <span>Web Design</span><span>Brand Identity</span
+          ><span>Social Media</span><span>UI/UX</span
+          ><span>Motion &amp; Reels</span><span>SEO</span>
+          <span>Web Design</span><span>Brand Identity</span
+          ><span>Social Media</span><span>UI/UX</span
+          ><span>Motion &amp; Reels</span><span>SEO</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>Everything your brand needs online, from one team.</h2>
+          <p>
+            Three core disciplines that work best together — pick one to start,
+            or let us run the whole system.
+          </p>
+        </div>
+        <div class="service-grid">
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
+                <rect x="3" y="4" width="18" height="16" rx="2" />
+                <path d="M3 9h18M8 4v5" />
+              </svg>
+            </div>
+            <h3>Website Design &amp; Development</h3>
+            <p>
+              Fast, responsive websites and web apps built for how people
+              actually browse in Nepal — clean, clear, and easy to update.
+            </p>
+            <ul class="service-tag-list">
+              <li>Business sites</li>
+              <li>E-commerce</li>
+              <li>Landing pages</li>
+            </ul>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
+                <circle cx="12" cy="12" r="9" />
+                <path d="M12 3a9 9 0 0 1 0 18 9 9 0 0 1 0-18z" />
+                <path d="M3 12h18" />
+              </svg>
+            </div>
+            <h3>Graphic Design &amp; Branding</h3>
+            <p>
+              Logos, brand guides, packaging and print — a visual identity your
+              customers recognize before they read a word.
+            </p>
+            <ul class="service-tag-list">
+              <li>Logo &amp; identity</li>
+              <li>Print &amp; packaging</li>
+              <li>Pitch decks</li>
+            </ul>
+          </div>
+          <div class="service-card reveal">
+            <div class="service-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8">
+                <rect x="4" y="4" width="16" height="16" rx="4" />
+                <circle cx="12" cy="12" r="3.4" />
+                <circle cx="16.2" cy="7.8" r="1" />
+              </svg>
+            </div>
+            <h3>Social Media Management</h3>
+            <p>
+              Content calendars, reels, and community management for Instagram,
+              Facebook and TikTok that build real followings.
+            </p>
+            <ul class="service-tag-list">
+              <li>Content calendars</li>
+              <li>Reels &amp; motion</li>
+              <li>Ad campaigns</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESS ================= -->
+    <section class="section" style="padding-top: 0">
+      <div class="container">
+        <div class="process reveal">
+          <div class="eyebrow on-ink">How we work</div>
+          <h2 style="max-width: 520px">
+            A clear process, from first call to launch day.
+          </h2>
+          <div class="process-list" style="margin-top: 40px">
+            <div class="process-step">
+              <div class="num">01</div>
+              <h4>Discover</h4>
+              <p>
+                We learn your business, audience and goals before touching a
+                design tool.
+              </p>
+            </div>
+            <div class="process-step">
+              <div class="num">02</div>
+              <h4>Design</h4>
+              <p>
+                Concepts and moodboards you review and refine with us, not after
+                us.
+              </p>
+            </div>
+            <div class="process-step">
+              <div class="num">03</div>
+              <h4>Build</h4>
+              <p>
+                Development and content production, with weekly check-ins along
+                the way.
+              </p>
+            </div>
+            <div class="process-step">
+              <div class="num">04</div>
+              <h4>Launch &amp; grow</h4>
+              <p>
+                We ship it, then keep optimizing based on real audience
+                behaviour.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURED WORK ================= -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>A few sparks we're proud of.</h2>
+          <p>
+            A quick look at recent projects. Visit the full portfolio for case
+            studies.
+          </p>
+        </div>
+        <div class="work-grid">
+          <div class="work-card reveal">
+            <div
+              class="thumb"
+              style="background: linear-gradient(140deg, #ffb627, #e8447c)"
+            ></div>
+            <div class="overlay">
+              <div class="cat">Web Design</div>
+              <h3>Himalayan Roasters</h3>
+            </div>
+          </div>
+          <div class="work-card reveal">
+            <div
+              class="thumb"
+              style="background: linear-gradient(140deg, #6c5ce7, #12101c)"
+            ></div>
+            <div class="overlay">
+              <div class="cat">Branding</div>
+              <h3>Sagarmatha Treks</h3>
+            </div>
+          </div>
+          <div class="work-card reveal">
+            <div
+              class="thumb"
+              style="background: linear-gradient(140deg, #e8447c, #6c5ce7)"
+            ></div>
+            <div class="overlay">
+              <div class="cat">Social Media</div>
+              <h3>Newa Kitchen</h3>
+            </div>
+          </div>
+        </div>
+        <div class="center reveal" style="margin-top: 44px">
+          <a href="portfolio.html" class="btn btn-ghost">View full portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section" style="background: var(--paper-dim)">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>What clients say about working with us.</h2>
+          <p>Real feedback from businesses across Kathmandu and beyond.</p>
+        </div>
+        <div class="testi-track-wrap reveal">
+          <div class="testi-track">
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="quote">
+                Xyfer Tech rebuilt our website and handled our Instagram in
+                the same month our bookings doubled. Coincidence? We don't think
+                so.
+              </p>
+              <div class="testi-person">
+                <div class="testi-avatar" style="background: #ffb627">RS</div>
+                <div>
+                  <b>Rojan Shrestha</b><span>Owner, Himalayan Roasters</span>
+                </div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="quote">
+                They understood our brand faster than agencies we'd worked with
+                for years. The new identity finally feels like us.
+              </p>
+              <div class="testi-person">
+                <div class="testi-avatar" style="background: #e8447c">AT</div>
+                <div><b>Anisha Thapa</b><span>Founder, Newa Kitchen</span></div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="quote">
+                Communication was clear from day one, deadlines were kept, and
+                the site works beautifully on mobile — which is 90% of our
+                traffic.
+              </p>
+              <div class="testi-person">
+                <div class="testi-avatar" style="background: #6c5ce7">BG</div>
+                <div>
+                  <b>Bibek Gurung</b><span>Director, Sagarmatha Treks</span>
+                </div>
+              </div>
+            </div>
+            <div class="testi-card">
+              <div class="testi-stars">★★★★★</div>
+              <p class="quote">
+                Our reel views went from a few hundred to tens of thousands
+                within eight weeks of handing over our socials.
+              </p>
+              <div class="testi-person">
+                <div class="testi-avatar" style="background: #12101c">PK</div>
+                <div>
+                  <b>Prashant K.C.</b><span>Marketing Lead, Yeti Apparel</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-controls reveal">
+          <button class="testi-prev" aria-label="Previous testimonial">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M10 2 4 8l6 6" />
+            </svg>
+          </button>
+          <button class="testi-next" aria-label="Next testimonial">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M6 2l6 6-6 6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA ================= -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Got an idea? Let's put a spark to it.</h2>
+          <a href="contact.html" class="btn btn-light">Book a free consult</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a
+              href="index.html"
+              class="brand"
+              style="margin-bottom: 16px; display: flex"
+            >
+              <span class="brand-mark"><img src="logo.png" alt="" /></span>
+              Xyfer Tech
+            </a>
+            <p>
+              A Kathmandu-based creative studio building websites, brand
+              identity and social media presence for growing businesses.
+            </p>
+            <div class="footer-social">
+              <a href="https://www.instagram.com/digitalspark404?igsh=anVtMThkM3hjYmll" aria-label="Instagram"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="5" />
+                  <circle cx="12" cy="12" r="4" />
+                  <circle cx="17.2" cy="6.8" r="1" /></svg
+              ></a>
+              <a href="https://www.tiktok.com/@digitalspark.404?_r=1&_t=ZS-989TIxxQI5N" aria-label="TikTok"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path
+                    d="M14 4v9.5a3.5 3.5 0 1 1-3-3.46M14 4c.3 2 1.8 3.5 4 3.7"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="Facebook"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path
+                    d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h2.4l.6-3H14V9z"
+                  /></svg
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="3" />
+                  <path
+                    d="M7 10v7M7 7v.01M11 17v-4.5c0-1.4 1-2.5 2.4-2.5S16 11.1 16 12.5V17"
+                  /></svg
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h5>Sitemap</h5>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Services</h5>
+            <ul>
+              <li><a href="services.html">Web Design</a></li>
+              <li><a href="services.html">Branding</a></li>
+              <li><a href="services.html">Social Media</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h5>Contact</h5>
+            <ul>
+              <li>
+                <a href="mailto:contact@xyfertech.com"
+                  >xyfertech6@gmail.com</a
+                >
+              </li>
+              <li><a href="tel:+9779800000000">+977 980-0000000</a></li>
+              <li><a href="#">Kathmandu, Nepal</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 Xyfer Tech. All rights reserved.</span>
+          <span>Designed &amp; built by Xyfer Tech</span>
+        </div>
+      </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">
+      <svg
+        viewBox="0 0 20 20"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M10 15V5M4 9l6-6 6 6" />
+      </svg>
+    </button>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
